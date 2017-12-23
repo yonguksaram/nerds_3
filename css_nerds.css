@@ -1,0 +1,111 @@
+body {
+  background-size: 1200px auto;
+  }
+
+.page-header {
+  background-color: red;
+  margin-bottom: 18px;
+}
+.wrapper {
+  width: 1160px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  min-width: 160px;
+  float: left;
+  min-height: 115px;
+  background-color: blue;
+}
+
+.main-navigation {
+  min-width: 760px;
+float: left;
+min-height: 115px;
+background-color: greenyellow;
+}
+
+.shopping-cart {
+  width: 160px;
+float: right;
+min-height: 115px;
+background-color: yellow;
+}
+.slider {
+  height: 430px;
+  margin-bottom: 80px;
+  background-color: orange;
+}
+
+.job-item {
+  width: 300px;
+  margin-right: 100px;
+  float: left;
+  margin-bottom: 80px;
+  background-color: violet;
+}
+
+.job-item:last-child {
+  margin-right: 0px;
+}
+
+.description{
+  margin-bottom: 80px;
+  background-color: brown;
+}
+
+.description-info {
+  width: 660px;
+  float: left;
+  background-color: red;
+}
+
+.accuracy {
+  width: 360px;
+  float: right;
+  background-color: cyan;
+}
+
+.partners {
+  margin-bottom: 80px;
+  background-color: grey;
+}
+.partners>.wrapper>a {
+  width: 260px;
+  margin-right: 40px;
+  float: left;
+}
+
+.partners>.wrapper>a:last-child {
+  margin-right: 0px;
+}
+
+.map {
+  margin-bottom: 69px;
+  background-color: green;
+}
+
+
+.contacts {
+  margin-top: 54px;
+  margin-bottom: 54px;
+  background-color: yellow;
+}
+.footer-social {
+  margin-right: 12px;
+  float: left;
+  background-color: orangered;
+}
+
+.footer-text {
+  margin-left: 400px;
+  background-color: blue;
+}
