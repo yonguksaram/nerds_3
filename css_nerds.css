@@ -99,13 +99,21 @@ background-color: yellow;
   margin-bottom: 54px;
   background-color: yellow;
 }
-.footer-social {
+
+.main-footer {
+  background-color: cyan; 
+}
+
+.footer-social>a {
   margin-right: 12px;
   float: left;
   background-color: orangered;
+  min-height: 80px;
 }
 
 .footer-text {
-  margin-left: 400px;
+  width: 560px;
+  float: left;
+  margin-left: 140px;
   background-color: blue;
 }
