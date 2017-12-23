@@ -1,4 +1,0 @@
-.footer-social {
-margin-right: 140px;
-}
-
