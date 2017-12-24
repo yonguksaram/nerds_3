@@ -1,57 +1,56 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Nёrds</title>
-  <link rel="stylesheet" href="css_nerds.css">
+    <title>Nёrds</title>
+  <link rel="stylesheet" href="css_nerds_flex.css">
 </head>
 <body>
-  <header class="page-header">
-    <div class="wrapper clearfix">
-      <div class="logo">
+  <header class="page-header wrapper flex">
+    <div class="logo">
 	      <a href="">
           <img src="#" alt="Nёrd's" height="" width="">
 		    </a>
-      </div>
-      <nav class="main-navigation">
-        <ul>
-          <li>
-            <a href="#">Студия</a>
-          </li>
-          <li>
-              <a href="#">Клиенты</a>
-          </li>
-          <li>
-              <a href="#">Магазин</a>
-          </li>
-          <li>
-              <a href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="shopping-cart">
-        <a href="#">Корзина</a>
-      </div>
+    </div>
+    <nav class="main-navigation">
+      <ul>
+        <li>
+          <a href="#">Студия</a>
+        </li>
+        <li>
+          <a href="#">Клиенты</a>
+        </li>
+        <li>
+          <a href="#">Магазин</a>
+        </li>
+        <li>
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="shopping-cart">
+      <a href="#">Корзина</a>
     </div>
   </header>
   <main>
-    <section class = "slider">
-      <div class=wrapper>
-	      <div class=slider-item1>
+    <section class = "slider wrapper">
+      <div class="slideshow item1 flex">
+        <div class = "slide-text">
           <b>Долго, дорого, скрупулёзно</b>
           <p>Математически выверенный дизайн для вашего сайта
             или мобильного приложения.</p>
           <a href="#">Узнать больше</a>
-          <img src= "">
         </div>
-		    <div class="slider-paginator">
-          <input type='radio'  name='pagination' checked>
-          <input type='radio'  name='pagination'>
-          <input type='radio'  name='pagination'>
-		    </div>
+        <div class = "slide-image">
+          <img src= "newfoundland.jpg" height="410px" width="760">
+        </div>
       </div>
+		  <div class="slider-paginator">
+        <input type='radio'  name='pagination' checked>
+        <input type='radio'  name='pagination'>
+        <input type='radio'  name='pagination'>
+		  </div>
     </section>
-    <section class="job">
-      <div class="wrapper clearfix">
+    <section class="job wrapper flex">
       <div class="job-item">
         <img src="#" alt="" height="100" width="200">
         <b class="job-title">Веб-сайты</b>
@@ -74,10 +73,8 @@
           вы изумительны!</p>
         <a href="#">Заказать</a>  
       </div>
-      </div>
     </section>
-    <section class="description">
-      <div class="wrapper clearfix">
+    <section class="description wrapper flex">
       <div class="description-info">
         <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.
         </h2>
@@ -108,49 +105,42 @@
           </tr>
         </table>
       </div>
-      </div>
     </section>
-    <section class="partners">
-	  <div class="wrapper">
+    <section class="partners wrapper flex">
 	    <a href="#">
-          <img src="#" alt="html academy" height=30 width=90>
-		</a>
-		<a href="#">
-          <img src="#" alt="borodinsky" height=30 width=90>
-		</a>
-		<a href="#">
-          <img src="#" alt="pink" height=30 width=90>
-		</a>
-		<a href="#">
-          <img src="#" alt="mishka" height=30 width=90>
-		</a>
-	  </div>
+        <img src="#" alt="html academy" height=30 width=90>
+	  	</a>
+	  	<a href="#">
+        <img src="#" alt="borodinsky" height=30 width=90>
+	  	</a>
+	  	<a href="#">
+        <img src="#" alt="pink" height=30 width=90>
+	  	</a>
+	  	<a href="#">
+        <img src="#" alt="mishka" height=30 width=90>
+	  	</a>
     </section>
-    <section class="map">
+    <section class="map wrapper">
       <img src="#" alt="" height="100" width="500">
       <div class="contacts">
-	      <div class="wrapper clearfix">
-          <h2>Nёrds design studio</h2>
-          <p>191186, Санк-Петербург,<br>
-          ул. Б. Конюшенная, д. 19/8<br>
-          тел. +7 (812) 275-75-75</p>
-          <a href="#">Напишите нам</a>
-	    	</div>
-      </div>
+	      <h2>Nёrds design studio</h2>
+        <p>191186, Санк-Петербург,<br>
+        ул. Б. Конюшенная, д. 19/8<br>
+        тел. +7 (812) 275-75-75</p>
+        <a href="#">Напишите нам</a>
+	    </div>
     </section>
     </main>
-    <footer class="main-footer">
-	  <div class="wrapper clearfix">
-        <div class="footer-social">
-          <a class="social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn-fb" href="#">Facebook</a>
-          <a class="social-btn-inst" href="#">Instagram</a>
-        </div>
-        <div class="footer-text">
-          <b>Давайте дружить, это выгодно!</b>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
-        </div>
-	  </div>
+    <footer class="main-footer wrapper">
+      <div class="footer-social flex">
+        <a class="social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn-fb" href="#">Facebook</a>
+        <a class="social-btn-inst" href="#">Instagram</a>
+      </div>
+      <div class="footer-text">
+        <b>Давайте дружить, это выгодно!</b>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
     </footer>
   </body>
 </html>

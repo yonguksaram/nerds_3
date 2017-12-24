@@ -1,0 +1,110 @@
+body {
+  background-size: 1122px;
+}
+
+.wrapper {
+  width: 1160px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.page-header.wrapper {
+  margin-bottom: 18px;
+}
+
+.page-header>.wrapper::before {
+  display: none;
+}
+
+.logo {
+  width: 160px;
+  min-height: 115px;
+  background-color: blue;
+}
+
+.main-navigation {
+  width: 440px;
+  min-height: 115px;
+  background-color: greenyellow;
+}
+
+.shopping-cart {
+  width: 120px;
+  min-height: 115px;
+  background-color: yellow;
+}
+
+.slideshow {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.slide-text {
+  width: 380px;
+}
+
+.slider {
+  margin-bottom: 80px;
+}
+
+.job.wrapper {
+  margin-bottom: 80px;
+}
+
+.job-item {
+  width: 300px;
+}
+
+.description.wrapper {
+  margin-bottom: 80px;
+}
+
+.description-info {
+  width: 660px;
+}
+
+.accuracy {
+  width: 360px;
+}
+
+.partners.wrapper {
+  margin-bottom: 80px;
+}
+
+.partners.wrapper>a {
+  width: 260px;
+}
+
+.contacts {
+  padding: 50px;
+  margin-bottom: 70px;
+  width: 220px;
+  height: 210px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.main-footer.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.footer-social {
+  width: 260px;
+  margin-right: 140px;
+}
+
+.footer-text {
+  width: 560px;
+}
