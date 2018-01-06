@@ -1,4 +1,8 @@
 body {
+  min-width: 1122px;
+  min-height: 1350px;
+  margin: 0;
+  padding: 0;
   background-size: 1200px auto;
   }
 
@@ -20,9 +24,9 @@ body {
 }
 
 .logo {
-  min-width: 160px;
+  width: 160px;
   float: left;
-  min-height: 115px;
+  height: 115px;
   background-color: blue;
 }
 
@@ -78,7 +82,7 @@ background-color: yellow;
   margin-bottom: 80px;
   background-color: grey;
 }
-.partners>.wrapper>a {
+.partners> a {
   width: 260px;
   margin-right: 40px;
   float: left;
